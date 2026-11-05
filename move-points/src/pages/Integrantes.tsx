@@ -3,6 +3,7 @@ import type { Integrante } from '../types'
 import fabricioHaine from '../assets/fabricio-torres-haine.jpeg'
 import guilhermeAlves from '../assets/guilherme.jpg'
 import leonardoNeto from '../assets/leonardo-neto.jpg'
+import andreLuiz from '../assets/andee.jpg'
 import { btnPrimario, container, divisor, labelTag, pageHero, secao, textoGradiente } from '../styles/ui'
 
 const integrantes: Integrante[] = [
@@ -23,6 +24,15 @@ const integrantes: Integrante[] = [
     foto: leonardoNeto,
     linkedin: 'https://www.linkedin.com/in/leonardo-neto-222b653ab/',
     github: 'https://github.com/leonardo-neto27',
+  },
+  {
+    nome: 'Andre Luiz',
+    rm: '572203',
+    turma: '1TDSPH · FIAP 2026',
+    cargos: ['Developer', 'Desenvolvedor de Java', 'Database Administrator'],
+    foto: fabricioHaine,
+    linkedin: 'https://www.linkedin.com/in/andr%C3%A9-forastieri-a029913b1/',
+    github: 'https://github.com/AndreL050690',
   },
   {
     nome: 'Guilherme Alves',
